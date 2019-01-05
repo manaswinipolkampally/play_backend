@@ -1,0 +1,23 @@
+2018-12-29 13:04:32,905 [INFO] from play.api.db.DefaultDBApi in play-dev-mode-akka.actor.default-dispatcher-22 - Database [default] initialized at jdbc:mysql://localhost/test
+2018-12-29 13:04:32,918 [INFO] from application in play-dev-mode-akka.actor.default-dispatcher-22 - Creating Pool for datasource 'default'
+2018-12-29 13:04:32,946 [WARN] from com.zaxxer.hikari.util.DriverDataSource in play-dev-mode-akka.actor.default-dispatcher-22 - Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2018-12-29 13:04:33,418 [INFO] from play.api.db.HikariCPConnectionPool in play-dev-mode-akka.actor.default-dispatcher-22 - datasource [default] bound to JNDI as DefaultDS
+2018-12-29 13:04:33,653 [INFO] from application in play-dev-mode-akka.actor.default-dispatcher-22 - ApplicationTimer demo: Starting application at 2018-12-29T07:34:33.653Z
+2018-12-29 13:04:35,426 [DEBUG] from controllers.AssetsConfiguration in play-dev-mode-akka.actor.default-dispatcher-22 - Using the following cache configuration for assets:
+	 enableCaching = false
+	 enableCacheControl = false
+	 defaultCacheControl = public, max-age=3600
+	 aggressiveCacheControl = public, max-age=31536000, immutable
+	 configuredCacheControl:
+
+
+2018-12-29 13:04:35,461 [INFO] from play.api.http.EnabledFilters in play-dev-mode-akka.actor.default-dispatcher-22 - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+    play.filters.csrf.CSRFFilter
+    play.filters.headers.SecurityHeadersFilter
+    play.filters.hosts.AllowedHostsFilter
+    filters.ExampleFilter
+
+2018-12-29 13:04:35,614 [INFO] from play.api.Play in play-dev-mode-akka.actor.default-dispatcher-22 - Application started (Dev)
+2018-12-29 13:04:47,229 [DEBUG] from controllers.BooksController in application-akka.actor.default-dispatcher-3 - Book title = Book 1
+2018-12-29 13:04:47,230 [ERROR] from controllers.BooksController in application-akka.actor.default-dispatcher-3 - This is an error
